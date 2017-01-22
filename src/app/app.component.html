@@ -1,3 +1,37 @@
-<h1>
-  {{title}}
-</h1>
+<!-- NAVIGATION BOTH MOBILE AND DESKTOP -->
+<nav class="navbar">
+    <div class="navbar-wrapper">
+        <div class="navbar-header">
+          <img src="/assets/logo.png" />
+            <button type="button" id="nav-icon" class="navbar-toggle">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <ul class="menu-toggle">
+            <li class=""><a routerLink="/home">Home</a></li><br />
+            <li class=""><a routerLink="/work">Our work</a></li><br />
+            <li class=""><a routerLink="/about">Who are we?</a></li><br />
+            <li class=""><a routerLink="/contact">Get in touch</a></li>
+
+        </ul>
+    </div>
+</nav>
+<div class="top-bar">
+  <img src="/assets/logo.svg" />
+</div>
+
+<!-- CONTENT GOES HERE -->
+
+<router-outlet></router-outlet>
+
+<!-- FOOTER -->
+
+<div class="container-fluid footer">
+  <a class="text-center" href="">LINK</a>
+  <a href="#">LINK</a>
+  <a href="">LINK</a>
+  <a href="">LINK</a>
+</div>

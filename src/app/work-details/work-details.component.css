@@ -1,0 +1,74 @@
+h1 {
+  margin-top: 30px;
+}
+
+.container {
+  width: 90%;
+  margin: 30px auto;
+  padding: 0;
+}
+
+.home-images {
+  margin-top: 20px;
+  background-color: #f2f2f2;
+  height: 200px;
+  width: 100%;
+}
+
+.row {
+  margin: 0;
+}
+
+
+
+@media screen and (min-width: 690px) {
+
+.container {
+  width: auto;
+  margin-left: 200px;
+  margin-right: 100px;
+}
+
+/* start of boxes/images styling on the home page */
+
+.home-images {
+  margin-top: 20px;
+}
+
+.home-img-1 {
+  height: 400px;
+  width: 100%;
+  background-color: #f2f2f2;
+  margin-top: 100px;
+}
+
+.home-img-2 {
+  height:350px;
+  width: 49%;
+  background-color: #f2f2f2;
+}
+
+.home-img-3 {
+  height: 350px;
+  background-color: #f2f2f2;
+  width: 49%;
+  margin-left: 2%;
+
+}
+
+.home-img-lg {
+  margin-top: 20px;
+  height: 400px;
+  width: 100%;
+}
+
+.tagline h1{
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+/* override bootstrap */
+.row {
+  margin: 0;
+}
+
+}
