@@ -1,3 +1,5 @@
+// use hard typing to ensure quality
+
 export class Project {
 
   id: number;

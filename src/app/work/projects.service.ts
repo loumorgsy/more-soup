@@ -5,7 +5,7 @@ import { PROJECTS } from './mock-projects'
 
 @Injectable()
 export class ProjectService {
-
+// instantly resolve promise
     getProjects(): Promise<Project[]> {
       return Promise.resolve(PROJECTS);
     }
