@@ -15,7 +15,7 @@ import { Project } from '../work/project';
   styleUrls: ['./work-details.component.css']
 })
 export class WorkDetailsComponent implements OnInit {
-
+//decorate with input
   @Input() project: Project;
 // create private assignments
   constructor(
